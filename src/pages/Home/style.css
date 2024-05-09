@@ -9,20 +9,73 @@
 }
 
 .summerCollection{
+    line-height: normal;
+
   height: auto;
 text-align: left;
 padding: 100px 80px;
 background-size: cover;
 
-h1{
-    width: 800px ;
-    font-size: 80px;
-}
 p{
-    font-size: 25px;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 button {
     font-size: 20px;
 }
+}
+.getUp{
+    font-size: 70px;
+    font-weight: 400;
+    width: 700px ;
+    color: #282828;
+    line-height: 72px;
+}
+
+
+.collections{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+}
+.women {
+    height: 265px;
+    width: 350px;
+    background-image: url(../../assets/images/banner_1.jpg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.accessory {
+    height: 265px;
+    width: 350px;
+    background-image: url(../../assets/images/banner_2.jpg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.men {
+    height: 265px;
+    width: 350px;
+    background-image: url(../../assets/images/banner_3.jpg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.collection{
+    background-color: white;
+    text-align: center;
+    margin:120px 80px ;
+    color:  #1E1E27;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 20px;
+}
+.collection:hover {
+color:#B5AEC4;
+}
+.newsLetter{
+    background-color: #F2F2F2;
 }

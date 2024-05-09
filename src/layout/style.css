@@ -2,6 +2,8 @@ body {
     max-width: 100% ;
     box-sizing: border-box;
     margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    
 }
 
 
@@ -17,32 +19,36 @@ body {
 
 
 
-.options{
-   border: none; 
-   background-color: black;
-}
 
 .headerBottom{
+    background-color:#FFFFFF;
+    box-shadow: inset;
+    padding: 0px 100px;
+    display: flex;
+    font-size: 12px;
+    gap: 100px;
+    justify-content: space-between;
+    align-items: center;
     h1{
-        font-size: 20px;
+        
+       font-family: 'Poppins', sans-serif;
+          font-weight: 700;
+        font-size: 24px;
         color: rgb(30,30,39);
 
         span{
             color: rgb(254,76,80);
         }
     }
-    padding: 0px 100px;
-    display: flex;
-    font-size: 12px;
-    gap: 20px;
-    justify-content: space-between;
-    align-items: center;
 
     ul{
         display: flex;
-        gap: 30px;
+        gap: 5px;
         align-items: center;
         li{
+            border: none;
+            font-size: 13px;
+            font-weight: 500;
             list-style: none;
         }
 
@@ -58,4 +64,49 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 50px;
+}
+
+
+
+.stickyHeader{
+    background-color: white;
+    padding:20px  50px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 16px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    ul{
+        padding: 0;
+    }
+    li{
+        margin: 0;
+        border: none;
+    }
+    li:hover{
+        color: #FE4C50;
+        cursor: pointer;
+    }
+}
+.iconsSocial{
+    display: flex;
+    gap: 20px;
+}
+.iconss:hover{
+color: #FE4C50;
+cursor: pointer;
+
+}
+
+.heart{
+    color: #FE4C50;
+}
+.footerParagraph{
+    font-size: 14px;
+    padding: 0 120px;
 }

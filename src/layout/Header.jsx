@@ -2,6 +2,7 @@ import { FaSignInAlt, FaUserPlus } from "react-icons/fa";
 import { Select } from 'antd';
 import React from 'react'
 import './style.css'
+import '@fontsource/poppins'
 
 const Header = () => {
     const { Option } = Select;

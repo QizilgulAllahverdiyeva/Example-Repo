@@ -4,17 +4,19 @@ import SearchIcon from '@mui/icons-material/Search';
 import PersonIcon from '@mui/icons-material/Person';
 import { SlBasket } from "react-icons/sl";
 import './style.css'
+import '@fontsource/poppins'
+import { NavLink } from 'react-router-dom';
 
 const HeaderBottom = () => {
   return (
-    <div >
+    <div className='stickyHeader'>
         <nav className='headerBottom'>
         <h1>COLO<span>SHOP</span></h1>
 
        <div className='headerRight'>
        <ul>
-            <li>HOME</li>
-            <li>SHOP</li>
+            <li><NavLink style={{textDecoration:"none"}} to={"/"}>HOME</NavLink></li>
+            <li><NavLink style={{textDecoration:"none"}} to={"/forms"}>FORM</NavLink></li>
             <li>PROMOTION</li>
             <li>PAGES</li>
             <li>BLOG</li>
