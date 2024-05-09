@@ -1,0 +1,28 @@
+.shopBtn {
+    background-color: rgb(254,76,80);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 40px;
+    cursor: pointer;
+
+}
+
+.summerCollection{
+  height: auto;
+text-align: left;
+padding: 100px 80px;
+background-size: cover;
+
+h1{
+    width: 800px ;
+    font-size: 80px;
+}
+p{
+    font-size: 25px;
+}
+
+button {
+    font-size: 20px;
+}
+}
